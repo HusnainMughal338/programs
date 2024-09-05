@@ -1,7 +1,9 @@
-
+#write a progrm to find the percentage of a student and print the grade.
+print("enter the marks of the student\n")
 def marks():
     marks = int(input("enter the marks: "))
-    percentage = (marks/1100)*100
+    total_marks = int(input("enter the total marks: "))
+    percentage = (marks/total_marks)*100
     print(percentage)
     if percentage >= 80:
        print("A grade")
