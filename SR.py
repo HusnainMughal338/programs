@@ -8,4 +8,3 @@ def square_root():
    square_root = 8
    num01 = (8**2)
    return num01
-
